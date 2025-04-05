@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Kamilly</title>
+  <style>
+    
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Tahoma', sans-serif;
+      background-color: green; 
+      color: black;
+    }
+
+    #desktop {
+      width: 100vw;
+      height: 100vh;
+      background-size: cover;
+      position: relative;
+    }
+
+  
+    .window {
+      position: absolute;
+      width: 300px;
+      height: 200px;
+      background-color: #fff;
+      border: 2px solid #000080;
+      box-shadow: 3px 3px 10px #000;
+      border-radius: 5px;
+    }
+
+    .window-header {
+      background-color: #000080;
+      color: white;
+      padding: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .window-body {
+      padding: 10px;
+      font-size: 14px;
+      overflow: auto;
+    }
+
+    .close-btn {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="desktop">
+    </div>
+
+    <div class="window" id="sobre">
+      <div class="window-header">
+        <span>Sobre mim</span>
+        <span class="close-btn">X</span>
+      </div>
+      <div class="window-body">
+        <p><strong>Nome:</strong>Kamilly</p>
+        <p><strong>Idade:</strong> 18 anos</p>
+        <p>Gosto de artes e biologia</p>
+      </div>
+    </div>
+
+    <div class="window" id="formacao">
+      <div class="window-header">
+        <span>Formação Acadêmica</span>
+        <span class="close-btn">X</span>
+      </div>
+      <div class="window-body">
+        <p><strong>Concluído:</strong> Informática básica</p>
+        <p><strong>Cursando:</strong> Técnico em Desenvolvimento de Sistemas na ETEC Irmã Agostina</p>
+      </div>
+    </div>
+
+
+    <div class="window" id="contato">
+      <div class="window-header">
+        <span>Contato</span>
+        <span class="close-btn">X</span>
+      </div>
+      <div class="window-body">
+        <p><strong>Email:</strong> kaamillysilvasantos@gmail.com</p>
+        <p><strong>Github:</strong> @Kamillysilva12</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- biblioteca -->
+ 
+</body>
+</html>
